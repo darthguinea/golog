@@ -1,3 +1,3 @@
-module github.com/darthguinea/golog/v1
+module github.com/darthguinea/golog
 
 go 1.16
