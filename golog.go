@@ -25,6 +25,10 @@ func SetLevel(level int) {
 	logFormat = "2006-01-02 15:04:05"
 }
 
+func Printf(format string, a ...interface{}) (n int, err error) {
+	return fmt.Printf(format, a...)
+}
+
 func Fprintf(w io.Writer, format string, a ...interface{}) (n int, err error) {
 	return fmt.Fprintf(w, format, a...)
 }
